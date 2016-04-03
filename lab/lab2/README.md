@@ -2,6 +2,8 @@
 
 ## Task
 
+DONT WORRY ABOUT FINISHING THIS PART, WORK ON FINAL!
+
 Build a static prototype based on the images in the [screens directory](./screens).
 The goal is to create the basic structure of these pages, placing the correct
 components into the page. For this assignment, you do not need to style the
@@ -11,15 +13,15 @@ application or make it match the screens visually.
 
 Your prototype must contain all three of the following components:
 
-- Dropdown
-- Grid
-- Modal
+- Dropdown, DONE
+- Grid - three columns in the modal
+- Modal - DONE
 
 ### Choose Your Own Components
 
 Your prototype must contain your choice of five of the following components.
 
-- Table
+- Table, DONE
 - Input Group
 - Button Group
 - Glyph Icon

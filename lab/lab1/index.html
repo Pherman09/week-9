@@ -12,10 +12,6 @@
   <body>
     <!-- Map -->
     <div class="header"></div>
-    <!-- Button -->
-    <button id="toggle-sidebar">
-      <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-    </button>
     <div id="map" class="map"></div>
     <!-- Sidebar -->
     <div class="sidebar">
@@ -28,6 +24,15 @@
       <h2 class="h3">Coordinate System</h2><p>NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet</p>
       <h2 class="h3">Thematic Mapping</h2><p>SITE_ID is a combination of a watershed prefix (e.g., WS = Wissahcikon Creek) and the rivermile distance from the confluence with the next water body in hundredths of a mile. WS1850 = Wissahickon Creek 18.5 miles from the confluence with the Schuylkill River.</p>
       <h2 class="h3">Update Frequency</h2><p>As needed</p>
+    </div>
+    <!-- Button -->
+    <div id="buttonland">
+      <button id="toggle-sidebar">
+        <span>SideBar</span>
+      </button>
+      <button id="toggle-map">
+        <span >Map</span>
+      </button>
     </div>
     <!-- Javascript Imports -->
     <script src="js/leaflet.js"></script>

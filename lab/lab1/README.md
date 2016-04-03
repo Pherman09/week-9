@@ -1,5 +1,11 @@
 # Week 9, Lab 1 — Media Queries
 
+#Week 8 Homework Notes:
+turf.within = get list of elements that reside in another element, like ArcGIS intersect Tool
+underscore.contains ->
+l.geojson converts to turf geojson object from leaflet object
+Mouse On is way better than mouse over
+
 ## Task 1
 
 Add a media query to make the sidebar smaller on screens that are greater

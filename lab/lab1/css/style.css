@@ -18,7 +18,7 @@ body {
   position: absolute;
   left: 440px;
   right: 0;
-  bottom: 0;
+  bottom: 40px;
   top: 50px;
 }
 
@@ -27,28 +27,62 @@ body {
   left: 0px;
   width: 440px;
   top: 50px;
-  bottom: 0;
+  bottom: 40px;
   padding: 20px;
   overflow: hidden;
   overflow-y: auto;
 }
 
-#toggle-sidebar {
+#buttonland{
   position: absolute;
-  right: 10px;
-  top: 60px;
-  z-index: 200;
-  padding: 6px 10px;
-  background-color: #057071;
-  border: 0;
-  color: #fff;
-  display: block;
+  bottom: 0;
+  left:0;
+  right:0;
+  height:40px;
+  width:100%;
+}
+
+button{
+  width: 50%;
+  height:40px;
+  position: absolute;
+}
+
+#toggle-sidebar{
+  left:0px;
+  background-color: #147A8F;
+  border: none;
+  color: white;
+}
+
+#toggle-map{
+  right:0px;
+  background-color: #009900;
+  border: none;
+  color: white;
 }
 
 @media screen and (min-width: 480px) and (max-width: 800px) {
-
+  .sidebar{
+    width: 240px;
+  }
 }
 
 @media screen and (max-width: 479px) {
-
+  .sidebar{
+    display: none;
+  }
+  .map{
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    top: 0;
+  }
 }
+
+/*@media screen and (min-width: 479px) {
+  #toggle-sidebar {
+    display:none;
+  }
+}*/
